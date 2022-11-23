@@ -1,6 +1,6 @@
 # GCP-Project
 
-Terraform :
+Terraform 
 
     GKE Module
         Cluster
@@ -31,7 +31,7 @@ Terraform :
         terraform init   # to initialize terraform 
         terraform apply  # to apply (create) above infrastructure in gcp
         
-    Python-App
+Python-App
 
     Dockerize the python app 
     built a docker image for the app and uploaded it to GCR (Google Container Registery)
@@ -49,6 +49,7 @@ Terraform :
         kubectl create -f service.yaml
         
      THE APP IS UP AND RUNNING  :)
-     ![Screenshot from 2022-11-24 00-45-25](https://user-images.githubusercontent.com/51370958/203658586-246c8b7c-b23d-4a49-8952-1ad2b28c8de8.png)
+     ![image](https://user-images.githubusercontent.com/51370958/203658776-c1889546-3417-4205-976a-9fb4f9f114ac.png)
+
      
      THANKS
