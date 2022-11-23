@@ -1,6 +1,6 @@
-# GCP-Project
+GCP Project By Terraform
 
-Terraform 
+Terraform :
 
     GKE Module
         Cluster
@@ -16,8 +16,11 @@ Terraform
     VM Module
 
         vm instance with run Script.sh in Metadata
-
         Service Account
+        
+        terraform init   # to initialize terraform 
+        terraform apply  # to apply (create) above infrastructure in gcp
+
 
     Docker
         Build and push dockerfile of pyhton app in GCP regiistery
@@ -25,31 +28,22 @@ Terraform
     Script.sh
 
         install kubectl
+
         install gcloud
+
         install git
-        
-        terraform init   # to initialize terraform 
-        terraform apply  # to apply (create) above infrastructure in gcp
-        
-Python-App
 
-    Dockerize the python app 
-    built a docker image for the app and uploaded it to GCR (Google Container Registery)
+Python-App :
 
-        docker build -t app-image ./app
-        docker push gcr.io/projectname/app 
-
+    Dockerize the python app from Repo https://github.com/atefhares/DevOps-Challenge-Demo-Code
 
     Kubernetes
 
         Deployment to run the app
-        Service to expose the app
-        
-        kubectl create -f dep.yaml
-        kubectl create -f service.yaml
-        
-     THE APP IS UP AND RUNNING  :)
-     ![image](https://user-images.githubusercontent.com/51370958/203658776-c1889546-3417-4205-976a-9fb4f9f114ac.png)
 
-     
-     THANKS
+        Service to expose the app
+
+NOW THE APP IS RUNNING :)
+
+
+![Screenshot from 2022-11-24 00-45-25](https://user-images.githubusercontent.com/51370958/203659948-85044463-4b18-4734-8ac8-0d109c58fe3e.png)
